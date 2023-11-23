@@ -1,5 +1,5 @@
 try:
-    with open('Кинотеатр.txt') as file:
+    with open('Кинотеатр.txt', 'r') as file:
         lines = file.readlines()
 except IOError as e:
         print(f"Ошибка при открытии файла Кинотеатр.txt: {e}")
